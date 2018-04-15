@@ -28,3 +28,11 @@ Fizz-buzzed numbers separated with commas
 
 1. `git clone` this repos
 2. Execute `rspec` in the root directory to run the rspec tests
+
+## Final Thoughts
+From a coverage sake the tests for the `fizz` and `buzz` methods
+may be of limited value expecially for the divisible case. But after
+doing this exercise several times, I have found them valuable in
+speeding up development by pinpointing logic
+(especially copy and paste) errors. They also provide specification
+for these public class methods. 
