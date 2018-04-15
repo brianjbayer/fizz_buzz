@@ -1,4 +1,5 @@
 # Specification for FizzBuzz
+require_relative '../fizz_buzz'
 
 RSpec.describe 'FizzBuzz' do
   describe '.fizz_buzz_to' do
