@@ -10,5 +10,8 @@ class FizzBuzz
   end
 
   def self.fizz_buzz(num)
+    fzbzed = "#{fizz(num)}#{buzz(num)}"
+    return num if fzbzed == ''
+    fzbzed
   end
 end
