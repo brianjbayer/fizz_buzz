@@ -8,4 +8,7 @@ class FizzBuzz
     end
     fzbzled
   end
+
+  def self.fizz_buzz(num)
+  end
 end
