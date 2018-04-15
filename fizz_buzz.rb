@@ -14,4 +14,10 @@ class FizzBuzz
     return num if fzbzed == ''
     fzbzed
   end
+
+  def self.fizz(num)
+  end
+
+  def self.buzz(num)
+  end
 end
