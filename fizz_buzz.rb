@@ -16,8 +16,12 @@ class FizzBuzz
   end
 
   def self.fizz(num)
+    return 'Fizz' if num % 3 == 0
+    ''
   end
 
   def self.buzz(num)
+    return 'Buzz' if num % 5 == 0
+  ''
   end
 end

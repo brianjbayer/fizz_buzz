@@ -22,13 +22,13 @@ RSpec.describe 'FizzBuzz' do
 
   describe '.fizz' do
     let(:not_div_by_3) { 1 }
-    it { expect(FizzBuzz.fizz_buzz     div_by_3 ).to eql 'Fizz' }
-    it { expect(FizzBuzz.fizz_buzz not_div_by_3 ).to eql '' }
+    it { expect(FizzBuzz.fizz     div_by_3 ).to eql 'Fizz' }
+    it { expect(FizzBuzz.fizz not_div_by_3 ).to eql '' }
   end
 
   describe '.buzz' do
     let(:not_div_by_5) { 2 }
-    it { expect(FizzBuzz.fizz_buzz     div_by_5 ).to eql 'Buzz' }
-    it { expect(FizzBuzz.fizz_buzz not_div_by_5 ).to eql '' }
+    it { expect(FizzBuzz.buzz     div_by_5 ).to eql 'Buzz' }
+    it { expect(FizzBuzz.buzz not_div_by_5 ).to eql '' }
   end
 end
