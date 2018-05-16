@@ -35,4 +35,13 @@ may be of limited value expecially for the divisible case. But after
 doing this exercise several times, I have found them valuable in
 speeding up development by pinpointing logic
 (especially copy and paste) errors. They also provide specification
-for these public class methods. 
+for these public class methods.
+
+## The Docker Version
+This project can also be run in a Docker container.
+To do so, you will need to...
+* have Docker installed
+* build the image by executing `docker build -t fizzbuzz .` in the
+  project root directory
+* run the container by executing `docker run fizzbuzz` in the
++ project root directory
