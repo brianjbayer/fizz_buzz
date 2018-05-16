@@ -44,4 +44,4 @@ To do so, you will need to...
 * build the image by executing `docker build -t fizzbuzz .` in the
   project root directory
 * run the container by executing `docker run fizzbuzz` in the
-+ project root directory
+  project root directory
