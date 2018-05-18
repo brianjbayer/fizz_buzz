@@ -1,9 +1,8 @@
 # This class Fizz Buzzes
-
 class FizzBuzz
   def self.fizz_buzz_to(count)
     fzbzled = '1'
-    for i in 2..count
+    (2..count).each do |i|
       fzbzled = "#{fzbzled},#{fizz_buzz(i)}"
     end
     fzbzled
@@ -16,12 +15,12 @@ class FizzBuzz
   end
 
   def self.fizz(num)
-    return 'Fizz' if num % 3 == 0
+    return 'Fizz' if (num % 3).zero?
     ''
   end
 
   def self.buzz(num)
-    return 'Buzz' if num % 5 == 0
-  ''
+    return 'Buzz' if (num % 5).zero?
+    ''
   end
 end
