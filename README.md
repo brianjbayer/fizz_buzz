@@ -5,12 +5,15 @@ implemented in Ruby (2.4.0) using test-driven development.
 
 Replay the git commits, to see the TDD flow.
 
-## Description
+## Acceptance Criteria
 Count from 1 to supplied number, replacing numbers that are divisible
 by...
 * 3 with 'Fizz'
 * 5 with 'Buzz'
 * 3 and 5 with 'FizzBuzz'
+### Specification by Example
+* For an input of 1, returns '1'
+* For an input of 16, returns '1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16'
 
 ## This Implementation
 This implementation makes some adjustments for simplicity in a code
